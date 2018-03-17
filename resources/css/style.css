@@ -8,7 +8,8 @@ body{
   text-align: center;
   display: block;
 }
-h2, h3, h4{
+
+h3, h4{
   padding: 10px;
   margin: 0;
   display: block;
@@ -19,15 +20,24 @@ h2, h3, h4{
   width: 1200px;
   margin:auto;
 }
-
+h2{
+  display: block;
+}
 a{
   text-decoration: underline;
   color: seashell;
+}
+div{
+  display: block;
 }
 
 footer{
   text-align: left;
   padding-left: 20px;
+}
+nav{
+  text-align: right;
+  flex-grow: 1;
 }
 
 /* Main Content */
@@ -66,7 +76,7 @@ header img{
   padding-top: 70px;
 }
 
-#mission .hero-text{
+.hero-text{
   width: 100%;
   background-color: black;
   margin: auto;
