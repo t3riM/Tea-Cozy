@@ -9,9 +9,14 @@ body{
   text-align: center;
   display: block;
 }
+h2, h3, h4{
+  padding: 10px;
+  margin: 0;
+}
 
 a{
   text-decoration: underline;
+  color: seashell;
 }
 
 footer{
@@ -32,23 +37,24 @@ header{
   background-color: black;
 
 }
-#logo{
+header img{
   padding-left: 10px;
   max-height: 50px;
 }
-#mission{
+#mission .hero{
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
   max-height: 700px;
   max-width: 1200px;
-}
-#mission .hero{
-background-color: black;
-width: 100%;
+  background-color: black;
+  width: 100%;
 }
 
 #featured{
   display:flex;
-  max-width: 1000px;
+  height: 700px;
+  width: 1000px;
+  margin: auto;
+  padding-top: 70px;
 }
 
 .hero-text{
@@ -56,6 +62,11 @@ width: 100%;
 }
 
 .flex-container{
+  display: flex;
+
+}
+
+.tea-grid{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
