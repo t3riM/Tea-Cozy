@@ -12,6 +12,7 @@ body{
 h2, h3, h4{
   padding: 10px;
   margin: 0;
+  display: block;
 }
 
 a{
@@ -48,6 +49,9 @@ header img{
   background-color: black;
   width: 100%;
 }
+#mission{
+  height: 700px;
+}
 
 #featured{
   display:flex;
@@ -57,8 +61,10 @@ header img{
   padding-top: 70px;
 }
 
-.hero-text{
-  display: flex;
+#mission .hero-text{
+  width: 100%;
+  background-color: black;
+  margin: auto;
 }
 
 .flex-container{
