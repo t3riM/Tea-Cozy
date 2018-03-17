@@ -27,9 +27,7 @@ a{
   text-decoration: underline;
   color: seashell;
 }
-div{
-  display: block;
-}
+
 
 footer{
   text-align: left;
@@ -57,16 +55,14 @@ header img{
   padding-left: 10px;
   max-height: 50px;
 }
-#mission .hero{
+#mission{
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
-  max-height: 700px;
-  max-width: 1200px;
+  height: 700px;
+  width: 1200px;
   background-color: black;
   width: 100%;
 }
-#mission{
-  height: 700px;
-}
+
 
 #featured{
   display:flex;
