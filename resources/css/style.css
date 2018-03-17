@@ -7,6 +7,7 @@ body{
   background-color: black;
   opacity: 0.9;
   text-align: center;
+  display: block;
 }
 
 a{
@@ -25,6 +26,10 @@ header{
   max-height: 69px;
   position: fixed;
   border-bottom: 1px solid seashell;
+  align-items: center;
+  z-index: 1;
+  width: 100%;
+  background-color: black;
 
 }
 #logo{
@@ -36,16 +41,21 @@ header{
   max-height: 700px;
   max-width: 1200px;
 }
-hero-text{
-  display: flex;
-}
-
 #mission .hero{
 background-color: black;
 width: 100%;
 }
 
-.flex{
+#featured{
+  display:flex;
+  max-width: 1000px;
+}
+
+.hero-text{
+  display: flex;
+}
+
+.flex-container{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -59,12 +69,7 @@ width: 100%;
 }
 
 .item span{
-display: block;
+display: flex;
 font-weight: bold;
 padding: 5px;
-}
-
-#featured{
-  display:flex;
-  max-width: 1000px;
 }
