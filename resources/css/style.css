@@ -58,7 +58,7 @@ header img{
 #mission{
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
   height: 700px;
-  width: 1200px;
+  width: 100%;
   background-color: black;
   width: 100%;
 }
@@ -73,7 +73,7 @@ header img{
 }
 
 .hero-text{
-  width: 100%;
+  width: 1200px;
   background-color: black;
   margin: auto;
 }
