@@ -6,6 +6,7 @@ body{
   color: seashell;
   background-color: black;
   opacity: 0.9;
+  text-align: center;
 }
 
 a{
@@ -60,7 +61,7 @@ width: 100%;
 .item span{
 display: block;
 font-weight: bold;
-padding: 5px; 
+padding: 5px;
 }
 
 #featured{
