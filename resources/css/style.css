@@ -25,6 +25,7 @@ h2{
 a{
   text-decoration: underline;
   color: seashell;
+
 }
 
 
@@ -35,6 +36,11 @@ footer{
 nav{
   text-align: right;
   flex-grow: 1;
+}
+
+nav span{
+  display: inline-block;
+  padding: 20px 10px;
 }
 
 /* Main Content */
@@ -64,10 +70,11 @@ header img{
 
 
 #featured{
-  display:flex;
+/*  display:flex; */
   height: 700px;
   width: 1000px;
   padding-top: 70px;
+  margin: auto;
 }
 
 .hero{
@@ -82,10 +89,17 @@ header img{
   justify-content: center;
   flex-wrap: wrap;
 
+
 }
 
+/*
 .tea-grid{
   display: inline-flex;
+}
+*/
+
+.item{
+  padding: 5px;
 }
 
 .item img {
@@ -96,8 +110,8 @@ header img{
 }
 
 .item span{
-display: flex;
+display: block;
 font-weight: bold;
 padding: 5px;
-align-items: flex-start;
+text-align: center;
 }
